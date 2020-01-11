@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Admin } from './admin';
 
 @Component({
   selector: 'app-admin',
@@ -6,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
+
+  // admin : Admin ={
+  //   "id":1,
+  //   "name":"Wahyu",
+  //   "email": "Wahyu@gmail.com",
+  //   "mobile":081274374658
+  // }
 
   constructor() { }
 
