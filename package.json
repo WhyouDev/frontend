@@ -14,13 +14,17 @@
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
-    "@angular/core": "~8.2.14",
+    "@angular/core": "^8.2.14",
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "^8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
+<<<<<<< HEAD
     "@angular/router": "~8.2.14",
     "@coreui/coreui": "^2.1.16",
     "@coreui/icons": "^1.0.0",
+=======
+    "@angular/router": "^8.2.14",
+>>>>>>> 19e417c647fc4c12fdff813cea7134d3814144fd
     "@ng-bootstrap/ng-bootstrap": "^5.1.5",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
