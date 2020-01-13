@@ -1,18 +1,33 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomepageComponent } from './homepage/homepage.component';
-import { AdminComponent } from './admin/admin.component';
+import { AdminComponent } from './admin/admin.component'
+import { HomepageComponent } from './frontend/homepage/homepage.component';
+import { HeaderComponent } from './frontend/header/header.component';
+import { SectionComponent } from './frontend/section/section.component';
+import { FooterComponent } from './frontend/footer/footer.component';
 
 
 const routes: Routes = [
   {
-    path: 'homepages',
+    path: '',
     component: HomepageComponent
   },
   {
-    path: 'admins',
+    path: '',
     component: AdminComponent
+  },{
+    path:'',
+    component: HeaderComponent
   }
+  ,{
+    path:'',
+    component: SectionComponent
+  }
+  ,{
+    path:'',
+    component: FooterComponent
+  }
+ 
 ];
 
 @NgModule({
@@ -20,4 +35,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomepageComponent,AdminComponent]
+// export const routingComponents = [HomepageComponent,AdminComponent]

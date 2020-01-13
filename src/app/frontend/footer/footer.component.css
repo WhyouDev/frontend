@@ -1,0 +1,37 @@
+.gallery-nav-menu {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+ul{
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+}
+
+.gallery-nav-menu{
+    border-top: 1px solid rgb(202, 199, 199);
+    border-bottom: 1px solid rgb(202, 199, 199);
+    
+}
+
+.gallery-nav-link{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 20;
+    font-weight: 500;
+}
+/* start footer */
+
+
+/* end footer */
