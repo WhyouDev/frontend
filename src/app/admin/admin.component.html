@@ -1,7 +1,57 @@
-<router-outlet></router-outlet> 
-<!-- <div class="content-wrapper">
-    <section class="content">
-       
-    </section>
-</div> -->
 <!-- <img src="./dashboard/dashboard.module.ts" alt=""> -->
+<head>
+    <title>Sleek - Admin Dashboard Template</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
+    <link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
+    <!-- PLUGINS CSS STYLE -->
+    <link href="./../../../assets/plugins/nprogress/nprogress.css" rel="stylesheet" />
+    <link href="./../../../assets/plugins/daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <!-- SLEEK CSS -->
+    <link id="sleek-css" rel="stylesheet" href="./../../../assets/css/sleek.min.css" />
+  
+    <!-- FAVICON -->
+    <link href="./../../../assets/img/favicon.png" rel="shortcut icon" />
+   
+    <script src="./../../../assets/plugins/nprogress/nprogress.js"></script>
+  </head>
+    <div id="sidebar" class="sidebar sidebar-with-footer">
+        <!-- Aplication Brand -->
+        <div class="app-brand">
+            <a href="/index.html" title="Sleek Dashboard">
+            <svg
+                class="brand-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid"
+                width="30"
+                height="33"
+                viewBox="0 0 30 33">
+                <g fill="none" fill-rule="evenodd">
+                <path
+                    class="logo-fill-blue"
+                    fill="#7DBCFF"
+                    d="M0 4v25l8 4V0zM22 4v25l8 4V0z"
+                />
+                <path class="logo-fill-white" fill="#FFF" d="M11 4v25l8 4V0z" />
+                </g>
+            </svg>
+            <span class="brand-name text-truncate">Sleek Dashboard</span>
+            </a>
+        </div>
+            <script>
+            NProgress.configure({ showSpinner: false });
+            NProgress.start();
+            </script>
+            <app-headers></app-headers>
+
+            <router-outlet></router-outlet>
+
+
+
+            <app-footers></app-footers>
+        <script src="./../../../assets/plugins/jquery/jquery.min.js"></script>
+        <script src="./../../../assets/plugins/slimscrollbar/jquery.slimscroll.min.js"></script>
+        <script src="./../../../assets/plugins/jekyll-search.min.js"></script>
+        <script src="./../../../assets/plugins/daterangepicker/moment.min.js"></script>
+        <script src="./../../../assets/plugins/daterangepicker/daterangepicker.js"></script>
+        <script src="./../../../assets/js/sleek.bundle.js"></script>    

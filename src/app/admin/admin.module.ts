@@ -8,19 +8,22 @@ import { AdminComponent } from './admin.component';
 
 //lazyload
 import { AdminRoutingModule } from './admin-routing.module';
+import { FootersComponent } from './layout/footers/footers.component';
+import { HeadersComponent } from './layout/headers/headers.component';
 
 
 
 @NgModule({
     imports: [
-        AdminComponent,
         AdminRoutingModule,
         CommonModule,
         HttpClientModule,
         ReactiveFormsModule
       ],
       declarations: [
-        AdminComponent
+        AdminComponent,
+        FootersComponent,
+        HeadersComponent
       ]
 
 })
