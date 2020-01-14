@@ -8,13 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  // admin : Admin ={
-  //   "id":1,
-  //   "name":"Wahyu",
-  //   "email": "Wahyu@gmail.com",
-  //   "mobile":081274374658
-  // }
-
   constructor() { }
 
   ngOnInit() {

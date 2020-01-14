@@ -7,7 +7,8 @@ import { HeaderComponent } from './frontend/header/header.component';
 import { FooterComponent } from './frontend/footer/footer.component';
 import { SectionComponent } from './frontend/section/section.component';
 import { HomepageComponent } from './frontend/homepage/homepage.component';
-import { AdminComponent } from './admin/admin.component';
+// import { AdminComponent } from './backend/admin/admin.component';
+// import { DashboardComponent } from './backend/admin/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +16,15 @@ import { AdminComponent } from './admin/admin.component';
     HeaderComponent,
     FooterComponent,
     SectionComponent,
-    HomepageComponent,
-    AdminComponent
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
