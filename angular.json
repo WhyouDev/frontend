@@ -25,7 +25,9 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/frontend/css/plugins/bootstrap.min.css"
+              "src/assets/frontend/css/plugins/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
+
             ],
             "scripts": [
               "src/assets/frontend/js/plugins/jquery-3.4.1.slim.min.js",
