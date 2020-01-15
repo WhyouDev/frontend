@@ -10,6 +10,7 @@ import { AdminComponent } from './admin.component';
 import { AdminRoutingModule } from './admin-routing.module';
 import { FootersComponent } from './layout/footers/footers.component';
 import { HeadersComponent } from './layout/headers/headers.component';
+import { SidebarsComponent } from './layout/sidebars/sidebars.component';
 
 
 
@@ -21,9 +22,11 @@ import { HeadersComponent } from './layout/headers/headers.component';
         ReactiveFormsModule
       ],
       declarations: [
+        SidebarsComponent,
         AdminComponent,
         FootersComponent,
         HeadersComponent
+        
       ]
 
 })

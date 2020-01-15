@@ -9,7 +9,7 @@ const routes: Routes = [
         component: AdminComponent,
         children:[
         { path:'',               redirectTo:'dashboard'},
-        { path:'',               loadChildren:'./dashboard/dashboard.module#DashboardModule'}
+        { path:'dashboard',               loadChildren:'./dashboard/dashboard.module#DashboardModule'}
 
         ]
     }
